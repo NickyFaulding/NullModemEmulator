@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Virtual Serial Port Emulator (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Virtual Serial Port Emulator (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
