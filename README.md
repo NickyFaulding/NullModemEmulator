@@ -9,6 +9,9 @@
 ```C#
 using com_emulator;
 
+// Sets the location of the installed instance of com0com. You only need to use this if your install path is different to the one used in the example below.
+SetCom0ComPath("C:/Program Files (x86)/com0com");
+
 // Creates a pair of virtual serial ports using COM1 and COM2.
 CreateCOMPair("COM1", "COM2");
 
