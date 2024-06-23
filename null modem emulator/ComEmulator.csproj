@@ -12,9 +12,18 @@
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/NickyFaulding/NullModemEmulator</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <Copyright>Copyright (c) Nicky Faulding 2024</Copyright>
+    <Description>.NET wrapper for com0com. Used for creating virtual COM ports.</Description>
+    <Authors>Nicky Faulding</Authors>
+    <Version>0.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
